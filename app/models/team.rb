@@ -3,8 +3,8 @@ class Team
   TEAMS = []
 
   def initialize(name, motto)
-    @name = name
-    @motto = motto
+    @name = params[:name]
+    @motto = params[:motto]
     TEAMS << self
 
     params[:hero].each do |h|
