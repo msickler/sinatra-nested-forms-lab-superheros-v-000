@@ -13,4 +13,4 @@ class SuperHero
     ALL
   end
 
-end 
+end
