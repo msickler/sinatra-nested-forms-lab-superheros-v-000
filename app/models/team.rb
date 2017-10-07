@@ -1,19 +1,19 @@
-class Team 
+class Team
   attr_accessor :name, :motto
   TEAMS = []
-   
+
   def initialize(name, motto)
-    @name = name 
-    @motto = motto 
-    TEAMS << self 
+    @name = name
+    @motto = motto
+    TEAMS << self
 
     params[:hero].each do |h|
       Superhero.new(h)
     end
-  end 
+  end
 
-  def self.all 
-    TEAMS 
-  end 
+  def self.all
+    TEAMS
+  end
 
   
