@@ -17,5 +17,3 @@ class Team
   end
 
 end
-
-  
